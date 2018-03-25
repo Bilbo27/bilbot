@@ -16,7 +16,7 @@ bot.on("ready", async () => {
 		console.log(e.stack);
 	}
 });
-bot.user.setGame('game here !');
+
 bot.on('message', async message => {
 	bot.user.setGame('pokemonrevolution.net');
 	
