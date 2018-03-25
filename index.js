@@ -575,9 +575,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage(' :: '+message.author.name);
 
 		 var url = 'https://www.pokemonrevolution.net/ranking.php';
-		 Browser.localhost(url, 3000);
-		 Browser.assert.element('.foo')
-		 message.channel.sendMessage();
+		 
 
 		
 	}
