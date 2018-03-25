@@ -3,9 +3,6 @@ const botSettings = require('./botsettings.json');
 const Discord = require('discord.js');
 const prefix = botSettings.prefix;
 
-const Browser = require('zombie');
-
-
 //const bot = new Discord.Client();
 const bot = new Discord.Client({disableEveryone: true});
 
