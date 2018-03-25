@@ -558,12 +558,16 @@ bot.on('message', async message => {
 		message.channel.sendMessage('	:trophy: Haber ganado la liga de sinnoh');
 		message.channel.sendMessage('	:ok_hand: Tener un pokemon máximo de nivel 60 (Recomendación : llevar un Gyarados full ev en atk y spd nivel 60)');
 	}
-	if (message.content == '!requisitos latios') || (message.content == '!requisitos latias') {
+	if (message.content == '!requisitos latios' || message.content == '!requisitos latias') {
 		message.channel.sendMessage('	:trophy: Haber ganado la liga de hoenn y tener capturado a Jirachi');
 		message.channel.sendMessage('	:muscle: Tener 344 evoluciones');
 	}
-	if (message.content == 'xd') || (message.content == 'xD') || (message.content == 'XD')|| (message.content == 'Xd'){
+	if (message.content == 'xd' || message.content == 'xD' || message.content == 'XD' || message.content == 'Xd'){
 		message.channel.sendMessage('```  :joy: ```');
+	}
+	if (message.content == '!comandos') {
+		message.channel.sendMessage('!tm         --- Colocar el ataque a consultar. Ejemplo: !tm earthquake');
+		message.channel.sendMessage('!requisitos --- Colocar el legendario a consultar. Ejemplo !requisitos mew');
 	}
 	
 	
