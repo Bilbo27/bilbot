@@ -3,6 +3,9 @@ const botSettings = require('./botsettings.json');
 const Discord = require('discord.js');
 const prefix = botSettings.prefix;
 
+const Browser = require('zombie');
+
+
 //const bot = new Discord.Client();
 const bot = new Discord.Client({disableEveryone: true});
 
@@ -570,13 +573,11 @@ bot.on('message', async message => {
 	}
 	if (message.content == '!ranking') {
 		message.channel.sendMessage(' :: '+message.author.name);
-		$(document).ready(function(){
+
 		 var url = 'https://www.pokemonrevolution.net/ranking.php';
-		 
-		  $.get(url, function(respuesta) {
-			message.channel.sendMessage(respuesta);
-		  });
-		})
+		 Browser.localhost(url, 3000);
+
+		 message.channel.sendMessage(Browser.assert.element('.foo'));
 
 		
 	}
