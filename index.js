@@ -566,12 +566,14 @@ bot.on('message', async message => {
 		message.channel.sendMessage(':joy:');
 	}
 	if (message.content == '!comandos') {
-		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+
-									'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
+		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
 	}
 	if (message.content == '!ranking') {
 		message.channel.sendMessage(' :: '+message.author.name);
-		
+		bot.sendMessage(message.channel, "Hello!");
+		bot.sendFile(message, 'http://i.imgur.com/6CbxaPc.jpg', 'kappa.jpg', 'Check out this cool file!', (err, m) => {
+                if (err) console.log(err);
+        });
 
 		
 	}
