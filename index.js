@@ -55,9 +55,13 @@ bot.on('message', async message => {
 	if (message.content == 'quien es el mas pto?') {
 		message.channel.sendMessage('Bilbo :speaking_head: ');
 	}
-	if (message.content == 'info almabot') {
-		message.channel.sendMessage('Aun estoy en pruebas');
+	if (message.content == '!tm earthquake') {
+		message.channel.sendMessage('TM26');
+		message.channel.sendMessage('  + Viridian City Gym - $6,000 - Special Offer: 5 for $24,000');
+		message.channel.sendMessage('  + Bruno Boss Battle Reward');
 	}
+	
+	
 	
 	
 });
