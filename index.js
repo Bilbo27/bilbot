@@ -567,7 +567,7 @@ bot.on('message', async message => {
 	}
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+
-									'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```'');
+									'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
 	}
 	if (message.content == '!ranking') {
 		message.channel.sendMessage(' :: '+message.author.name);
