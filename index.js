@@ -569,6 +569,9 @@ bot.on('message', async message => {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake ```');
 		message.channel.sendMessage('```!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
 	}
+	if (message.content == '!ranking') {
+		window.open("https://www.pokemonrevolution.net/ranking.php","_self");
+	}
 	
 	
 	
