@@ -563,7 +563,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage('	:muscle: Tener 344 evoluciones');
 	}
 	if (message.content == 'xd' || message.content == 'xD' || message.content == 'XD' || message.content == 'Xd'){
-		message.channel.sendMessage('```  :joy: ```');
+		message.channel.sendMessage(':joy:');
 	}
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('!tm         --- Colocar el ataque a consultar. Ejemplo: !tm earthquake');
