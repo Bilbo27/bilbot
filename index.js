@@ -572,7 +572,7 @@ bot.on('message', async message => {
 	}
 	if (message.content == '!canalyt') {
 		//message.channel.sendMessage(' :: '+message.author.name);
-		message.channel.sendMessage('```https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA```');
+		message.channel.sendMessage('https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA');
 		 //var url = 'https://www.pokemonrevolution.net/ranking.php';
 		
 	}
