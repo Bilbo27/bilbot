@@ -11,7 +11,6 @@ bot.on("ready", async () => {
 	
 	try {
 		let link = await bot.generateInvite(["ADMINISTRATOR"]);
-		bot.user.setGame('pokemonrevolution.net');
 		console.log(link);
 		
 	} catch(e) {
@@ -571,12 +570,10 @@ bot.on('message', async message => {
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
 	}
-	if (message.content == '!ranking') {
-		message.channel.sendMessage(' :: '+message.author.name);
-
-		 var url = 'https://www.pokemonrevolution.net/ranking.php';
-		 
-
+	if (message.content == '!canalyt') {
+		//message.channel.sendMessage(' :: '+message.author.name);
+		message.channel.sendMessage('```https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA```');
+		 //var url = 'https://www.pokemonrevolution.net/ranking.php';
 		
 	}
 	
