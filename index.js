@@ -35,7 +35,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage('```  + Vermilion City Gym - $3,000 - Special Offer: 5 for $12,000 ```');
 		message.channel.sendMessage('```  + Mauville City Game Corner - $5,000 ```');
 	}
-	if (message.content == '!tm psycshock') {
+	if (message.content == '!tm psyshock') {
 		message.channel.sendMessage('**TM53**');
 		message.channel.sendMessage('```  + Celadon Mart - $3,500 ```');
 	}
@@ -570,10 +570,13 @@ bot.on('message', async message => {
 	}
 	if (message.content == '!ranking') {
 		message.channel.sendMessage(' :: '+message.author.name);
-		bot.sendMessage(message.channel, "Hello!");
-		bot.sendFile(message, 'http://i.imgur.com/6CbxaPc.jpg', 'kappa.jpg', 'Check out this cool file!', (err, m) => {
-                if (err) console.log(err);
-        });
+		$(document).ready(function(){
+		 var url = 'https://www.pokemonrevolution.net/ranking.php';
+		 
+		  $.get(url, function(respuesta) {
+			message.channel.sendMessage(respuesta);
+		  });
+		})
 
 		
 	}
