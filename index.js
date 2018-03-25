@@ -1,31 +1,19 @@
+console.log('El bot esta listo');
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const bot = new Discord.Client();
 
-const botSettings = require('./botsettings.json');
-const prefix = botSettings.prefix;
-
-client.on('ready', () => {
-    console.log('I am ready!');
-});
-
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-	
+bot.on('message', (message) => {
 	if (message.content == 'hola') {
-		message.channel.sendMessage('Hola ! :grin: ');
-		
+		message.channel.sendMessage('Hola ! ');
 	}
 	if (message.content == 'quien es el mas pto?') {
-		message.channel.sendMessage('Bilbo :speaking_head: ');
+		message.channel.sendMessage('Bilbo');
 	}
-	if (message.content == 'info almabot') {
-		message.channel.sendMessage('Aun estoy en pruebas');
+	if (message.content == 'info geobot') {
+		message.channel.sendMessage('Soy solo una prueba pto nano :v');
+	}
+	if (message.content == 'que agradable sujeto') {
+		message.channel.sendMessage(':grin:');
 	}
 });
-
-
-
-// THIS  MUST  BE  THIS  WAY
-client.login(botSettings.token);
+bot.login('NDE1MzM2NjIxMzUzODYxMTIy.DW0lrg.CAr8vkcPoKdc6njfxkLCjOmhYcY'); 
