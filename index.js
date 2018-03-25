@@ -534,6 +534,38 @@ bot.on('message', async message => {
 	if (message.content == '!tm zap cannon') {
 		message.channel.sendMessage('```  + Por tutor en Iron Island B1F L - $15,000 ```');
 	}
+	if (message.content == '!requisitos mew') {
+		message.channel.sendMessage('	:hourglass: 350 horas de juego ');
+		message.channel.sendMessage('	:trophy: Haber ganado la liga de kanto y derrotado a rojo ');
+		message.channel.sendMessage('	:ok_hand: Dex completa de Kanto y tener avistados a los legendarios Moltres, Zapdos, Articuno');
+		message.channel.sendMessage('	:muscle: Tener 71 evoluciones');
+	}
+	if (message.content == '!requisitos celebi') {
+		message.channel.sendMessage('	:hourglass: 400 horas de juego ');
+		message.channel.sendMessage('	:trophy: Haber ganado la liga de Johto');
+		message.channel.sendMessage('	:ok_hand: Dex completa de Kanto, Johto y tener avistados a los legendarios');
+		message.channel.sendMessage('	:muscle: Tener 121 evoluciones');
+	}
+	if (message.content == '!requisitos jirachi') {
+		message.channel.sendMessage('	:hourglass: 120 horas de juego en la región de Hoenn');
+		message.channel.sendMessage('	:trophy: Haber ganado la liga de Hoenn y haber realizado la quest de latios y latias');
+		message.channel.sendMessage('	:ok_hand: Dex completa de hoenn excluyendo a los legendario ni castform y tener avistados a los pokemon de la región');
+		message.channel.sendMessage('	:ok_hand: Tener capturados y avistados (los no capturables) a todos los pókemon de kanto y johto');
+		message.channel.sendMessage('	:muscle: Tener 210 evoluciones');
+	}
+	if (message.content == '!requisitos heatran') {
+		message.channel.sendMessage('	:hourglass: 150 horas de juego en sinnoh ');
+		message.channel.sendMessage('	:trophy: Haber ganado la liga de sinnoh');
+		message.channel.sendMessage('	:ok_hand: Tener un pokemon máximo de nivel 60 (Recomendación : llevar un Gyarados full ev en atk y spd nivel 60)');
+	}
+	if (message.content == '!requisitos latios') || (message.content == '!requisitos latias') {
+		message.channel.sendMessage('	:trophy: Haber ganado la liga de hoenn y tener capturado a Jirachi');
+		message.channel.sendMessage('	:muscle: Tener 344 evoluciones');
+	}
+	if (message.content == 'xd') || (message.content == 'xD') || (message.content == 'XD')|| (message.content == 'Xd'){
+		message.channel.sendMessage('```  :joy: ```');
+	}
+	
 	
 	
 	
