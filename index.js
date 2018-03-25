@@ -11,14 +11,16 @@ bot.on("ready", async () => {
 	
 	try {
 		let link = await bot.generateInvite(["ADMINISTRATOR"]);
+		bot.user.setGame('pokemonrevolution.net');
 		console.log(link);
+		
 	} catch(e) {
 		console.log(e.stack);
 	}
 });
 
 bot.on('message', async message => {
-	bot.user.setGame('pokemonrevolution.net');
+	
 	
 	if (message.content == 'hola') {
 		message.channel.sendMessage('Hola ! :grin: ');
