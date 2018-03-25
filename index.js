@@ -571,10 +571,7 @@ bot.on('message', async message => {
 	}
 	if (message.content == '!ranking') {
 		message.channel.sendMessage(' :: '+message.author.name);
-		bot.sendMessage(message.channel, "Hello!");
-		bot.sendFile(message, 'http://i.imgur.com/6CbxaPc.jpg', 'kappa.jpg', 'Check out this cool file!', (err, m) => {
-                if (err) console.log(err);
-        });
+		
 
 		
 	}
