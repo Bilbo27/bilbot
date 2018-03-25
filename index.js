@@ -566,7 +566,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage(':joy:');
 	}
 	if (message.content == '!comandos') {
-		message.channel.sendMessage('```!tm				     Colocar el ataque a consultar. Ejemplo: !tm earthquake ```');
+		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake ```');
 		message.channel.sendMessage('```!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
 	}
 	
