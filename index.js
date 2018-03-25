@@ -28,4 +28,4 @@ client.on('message', message => {
 
 
 // THIS  MUST  BE  THIS  WAY
-bot.login(botSettings.token);
+client.login(botSettings.token);
