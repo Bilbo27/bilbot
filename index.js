@@ -41,6 +41,12 @@ bot.on('message', async message => {
 		message.channel.sendMessage('**TM53**');
 		message.channel.sendMessage('```  + Celadon Mart - $3,500 ```');
 	}
+	if (message.content == '!tm ice beam') {
+		message.channel.sendMessage('**TM13**');
+		message.channel.sendMessage('```  + Mahogany City Gym - $4,000 - Special Offer: 5 for $16,000 ```');
+		message.channel.sendMessage('```  + Lorelei Boss Battle Reward ```');
+		message.channel.sendMessage('```  + Mauville City Game Corner - $5,000 ```');
+	}
 	if (message.content == '!tm icebeam') {
 		message.channel.sendMessage('**TM13**');
 		message.channel.sendMessage('```  + Mahogany City Gym - $4,000 - Special Offer: 5 for $16,000 ```');
@@ -567,19 +573,33 @@ bot.on('message', async message => {
 	if (message.content == 'xd' || message.content == 'xD' || message.content == 'XD' || message.content == 'Xd'){
 		message.channel.sendMessage(':joy:');
 	}
-	if (message.content == '!comandos') {
-		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew ```');
-	}
 	if (message.content == '!canalyt') {
-		//message.channel.sendMessage(' :: '+message.author.name);
-		message.channel.sendMessage('https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA');
-		 //var url = 'https://www.pokemonrevolution.net/ranking.php';
-		
+		message.channel.sendMessage('https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA');	
+	}
+	if (message.content == '!legtutor') {
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' + '  + Entei: Flare Blitz, Howl, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	}
+	if (message.content == '!legtutor entei') {
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Flare Blitz, Howl, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	}
+	if (message.content == '!legtutor suicune') {
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Air Slash, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	}
+	if (message.content == '!legtutor raikou') {
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Aura Sphere, Weather Ball, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	}
+	if (message.content == '!legtutor celebi') {
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Nasty Plot \n '  + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	}
+	if (message.content == '!comandos') {
+		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		Muestra el canal de youtube de la guild'+'!legtutor		Muestra los movimientos que aprenden los legendarios por tutor especial. Ejemplo !legtutor raikou```');
 	}
 	
 	
-	
-	
+
+
+
+
 	
 });
 //bot.login('NDE2NDIyMjcyNDY3OTkyNTg3.DXEPBw.1uNZFrViwOosX18W_MdB7Z2LDSs'); 
