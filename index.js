@@ -577,7 +577,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage('https://www.youtube.com/channel/UC2OWt0YJOcZjyDhPNnfaZqA');	
 	}
 	if (message.content == '!legtutor') {
-	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' + '  + Entei: Flare Blitz, Howl, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
+	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ $20,000 por movimiento** \n ' + '  + Entei: Flare Blitz, Howl, Extreme Speed \n '+ '  + Suicune: Air Slash, Extreme Speed \n '+ '  + Raikou: Aura Sphere, Weather Ball, Extreme Speed \n '+'  + Celebi: Nasty Plot \n '  + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
 	}
 	if (message.content == '!legtutor entei') {
 	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación​ (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Flare Blitz, Howl, Extreme Speed \n ' + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
