@@ -24,7 +24,7 @@ bot.on('message', async message => {
 	if (message.content == 'hola') {
 		message.channel.sendMessage('Hola ! :grin: ');
 	}
-	if (message.content == 'quien es el mas pto?') {
+	if (message.content == 'quien es el mas pto?' || message.content == 'quien es el mas puto?') {
 		message.channel.sendMessage('Bilbo :speaking_head: ');
 	}
 	if (message.content == '!tm earthquake') {
