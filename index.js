@@ -775,7 +775,9 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
-	
+	if (message.content.indexOf("!tm") != -1) {
+	message.channel.sendMessage('funciona');
+	}
 	
 	
 	if (message.content == '!comandos') {
