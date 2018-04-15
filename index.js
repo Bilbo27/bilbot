@@ -599,18 +599,9 @@ bot.on('message', async message => {
 		.addField("Location","Two Island (Sevii Island Two)")
 		.addField("Cooldown","15 days")
 		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
-		.addField("Team")
-		.addField("Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up)")
-		.addField("Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch)")
-		.addField("XD001 (Cosmic Power, Aeroblast, Psyshock, Roar)")
-		.addField("Primal Kyogre (Surf, Thunder, Ice Beam, Calm Mind)")
-		.addField("Mega Latios (Calm Mind, Stored Power, Recover, Dragon Pulse)")
-		.addField("Mega Rayquaza (Dragon Dance, Outrage, Roost, Extreme Speed)")
+		.addField("Team","")
+		.addField("","Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up)")
 		
-
-
-
-
 		.setFooter("Alma de guerreros")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
 		
