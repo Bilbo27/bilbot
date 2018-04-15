@@ -594,16 +594,13 @@ bot.on('message', async message => {
 	
 	if (message.content == '!boss') {
 		var embed = new Discord.RichEmbed()
-		.addField("Boss","")
-		.addField("Boss","Kanto",true)
-		.addField("Location","Two Island (Sevii Island Two)")
-		.addField("Cooldown","15 days")
-		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
-		.setFooter("Alma de guerreros")
+		.addField("Test","Descripcin",true)
+		.addField("Test","Descripcin2",true)
+		.addField("Test","Descripcin")
+		.setFooter("prueba pie de pagina")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
 		
 		message.channel.sendEmbed(embed);
-		
 	}
 	
 	if (message.content == '!comandos') {
