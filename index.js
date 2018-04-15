@@ -591,6 +591,18 @@ bot.on('message', async message => {
 	if (message.content == '!legtutor celebi') {
 	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Nasty Plot \n '  + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
 	}
+	
+	if (message.content == 'prueba') {
+		var embed = new Discord.RichEmbed()
+		.addField("Test","Descripcin",true)
+		.addField("Test","Descripcin2",true)
+		.addField("Test","Descripcin")
+		.setFooter("prueba pie de pagina")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou```');
 	}
