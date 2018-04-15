@@ -594,7 +594,7 @@ bot.on('message', async message => {
 	
 	if (message.content == '!boss') {
 		var embed = new Discord.RichEmbed()
-		.setDescription("**Boss**")
+		.setDescription("Boss")
 		.addField("Region","Kanto",true)
 		.addField("Location","Isla Sevii 2",true)
 		.addField("Cooldown","15 days")
