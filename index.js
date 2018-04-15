@@ -594,8 +594,9 @@ bot.on('message', async message => {
 	
 	if (message.content == '!boss') {
 		var embed = new Discord.RichEmbed()
-		.setDescription("Boss")
+		.setDescription("**Boss**")
 		.addField("Region","Kanto",true)
+		.addField("                     ","                     ",true)
 		.addField("Location","Two Island (Sevii Island Two)")
 		.setFooter("prueba pie de pagina")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
