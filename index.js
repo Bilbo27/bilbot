@@ -592,18 +592,33 @@ bot.on('message', async message => {
 	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Nasty Plot \n '  + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
 	}
 	
-	if (message.content == '!boss') {
+	if (message.content == '!boss boss') {
 		var embed = new Discord.RichEmbed()
 		.setDescription("Boss")
 		.addField("Region","Kanto",true)
 		.addField("Location","Isla Sevii 2",true)
 		.addField("Cooldown","15 days")
 		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
-		.addField("Team","Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up) \n Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch) \n XD001 (Cosmic Power, Aeroblast, Psyshock, Roar) \n Primal Kyogre (Surf, Thunder, Ice Beam, Calm Mind) \n Mega Latios (Calm Mind, Stored Power, Recover, Dragon Pulse) \n Mega Rayquaza (Dragon Dance, Outrage, Roost, Extreme Speed)")
+		.addField("Team"," Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up) \n Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch) \n XD001 (Cosmic Power, Aeroblast, Psyshock, Roar) \n Primal Kyogre (Surf, Thunder, Ice Beam, Calm Mind) \n Mega Latios (Calm Mind, Stored Power, Recover, Dragon Pulse) \n Mega Rayquaza (Dragon Dance, Outrage, Roost, Extreme Speed)")
 		.addField("Possible Rewards","$60000-125000, 10x Rare Candy, 10x PP Up, 10x Focus Sash, 50x Ultra Ball, Assault Vest, 1x Weakness Policy, Eviolite, Master Ball, Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, 25 % chance for Phione")
 		.addField("Third Rewards","Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, Small MS Medalion")
 		.setFooter("Alma de Guerreros")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss brock') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Brock")
+		.addField("Region","Kanto",true)
+		.addField("Location","Digletts Cave",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","1 level 100 pokemon, 150 hours playtime")
+		.addField("Team"," Steelix (Sandstorm, Dig, Stone Edge, Double Edge) \n Kabutops (Night Slash, Metal Sound, Ancient Power, Wring Out) \n Golem (Stone Edge, Explosion, Heavy Slam, Double Edge) \n Armaldo (X-Scissor, Slash, Rock Blast, Crush Claw) \n Rhyperior (Earthquake, Megahorn, Horn Drill, Rock Wrecker) \n Regirock (Zap Cannon, Hammer Arm, Stone Edge, Hyper Beam)")
+		.addField("Possible Rewards","$60000-125000, 10x Rare Candy, 10x PP Up, 10x Focus Sash, 50x Ultra Ball, Assault Vest, 1x Weakness Policy, Eviolite, Master Ball, Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, 25 % chance for Phione")
+		.addField("Third Rewards","Omanyte, Kabuto, Aerodactyl, Anorith, Lileep")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/_WCoH7BYaTfF8tG3m9JCkdpdjS8r3CRHAaQeRnKScy4/https/walrosskastanie.tk/2017/10/oegJVgv.png")
 		
 		message.channel.sendEmbed(embed);
 	}
