@@ -599,7 +599,10 @@ bot.on('message', async message => {
 		.addField("Location","Isla Sevii 2",true)
 		.addField("Cooldown","15 days")
 		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
-		.setFooter("prueba pie de pagina")
+		.addField("Team","Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up) \n Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch) \n XD001 (Cosmic Power, Aeroblast, Psyshock, Roar) \n Primal Kyogre (Surf, Thunder, Ice Beam, Calm Mind) \n Mega Latios (Calm Mind, Stored Power, Recover, Dragon Pulse) \n Mega Rayquaza (Dragon Dance, Outrage, Roost, Extreme Speed)")
+		.addField("Possible Rewards","$60000-125000, 10x Rare Candy, 10x PP Up, 10x Focus Sash, 50x Ultra Ball, Assault Vest, 1x Weakness Policy, Eviolite, Master Ball, Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, 25 % chance for Phione")
+		.addField("Third Rewards","Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, Small MS Medalion")
+		.setFooter("Alma de Guerreros")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
 		
 		message.channel.sendEmbed(embed);
