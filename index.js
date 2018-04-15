@@ -637,7 +637,7 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
-	if (message.content == '!boss guardian entei') {
+	if (message.content == '!boss guardian entei' || message.content == '!boss entei guardian') {
 		var embed = new Discord.RichEmbed()
 		.setDescription("Guardian Entei")
 		.addField("Region","Kanto",true)
@@ -652,6 +652,52 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
+	if (message.content == '!boss erika') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Erika")
+		.addField("Region","Kanto",true)
+		.addField("Location","Viridian Maze",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon")
+		.addField("Team","Ferrothorn (Iron Head, Payback, Flash Cannon, Explosion) \n Ludicolo (Growl, Astonish, Mega Drain, Nature Power) \n Volcarona (Heat Wave, Bug Buzz, Rage Powder, Hurricane) \n Shiftry (Nasty Plot, Feint Attack, Whirlwind, Leaf Storm) \n Torterra (Synthesis, Crunch, Giga Drain, Leaf Storm) \n Virizion (Quick Guard, Work Up, Leaf Blade, Close Combat)")
+		.addField("Possible Rewards","$2500-8500, Sun Stone, Leaf Stone, Seedot, 2x TM22 - Solarbeam, 2x TM86 - Sludge Bomb, 5x Pomeg Berry, 5x Kelpsy Berry, 5x Qualot Berry, 5x Hondew Berry, 5x Grepa Berry, 5x Tomato Berry, Ferroseed, Larvesta")
+		.addField("Third Rewards","Seedot, Ferroseed, Larvesta, Turtwig")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/4tWgGowH1AFsUOCU7N7rMAoqIrCWUEZRH207ikV6YBQ/https/reborn-pro.tk/files/Forum/Erika.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss george') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("George")
+		.addField("Region","Kanto",true)
+		.addField("Location","Carcel(Pewter City)",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","Complete quest, 750 hours")
+		.addField("Team","Arcanine (Wild Charge, Flare Blitz, Outrage, Roar) \n Stoutland (Yawn, Superpower, Wild Charge, Facade) \n Furfrou (Grass Knot, Surf, Zen Headbutt, U-Turn) \n Mega Houndoom (Dark Pulse, Fire Blast, Iron Tail, Thunder Fang) \n Manetric (Thunderbolt, Flame Burst, Signal Beam, Eerie Impulse) \n Lucario (Extreme Speed, Flash Cannon, Close Combat, Dark Pulse)")
+		.addField("Possible Rewards","$25000-45000, 2x Toxic Orb, 2x Flame Orb, 2x Life Orb, Houndour, Electrike, Lillipup, Riolu, Furfrou")
+		.addField("Third Rewards","Houndour, Electrike, Lillipup, Riolu, Furfrou")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/14YtmGxn-JFTqq6evnIxYNZZuUeRUtSFlI6ehVkfC48/https/reborn-pro.tk/files/Forum/George.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss team rocket' || message.content == '!boss rocket' || message.content == '!boss jessie' || message.content == '!boss james' || message.content == '!boss jessie/james') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Team Rocket")
+		.addField("Region","Kanto",true)
+		.addField("Location","Celadon City",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon, level 100 Pikachu")
+		.addField("Team (Jessie)","Arbok (Coil, Gunk Shot, Sucker Punch, Seed Bomb) \n Dustox (Quiver Dance, Sludge Bomb, Bug Buzz, Roost) \n Yanmega (Air Slash, Giga Drain, Bug Buzz, Ancient Power) \n Porygon-Z (Tri Attack, Dark Pulse, Thunderbolt, Nasty Plot) \n Seviper (Sludge Bomb, Giga Drain, Sucker Punch, Flamethrower) \n Jellicent (Shadow Ball, Will-o-Wisp, Surf, Recover)")
+		.addField("Team (James)","Weezing (Will-o-Wisp, Sludge Bomb, Flamethrower, Pain Split) \n Arcanine (Flare Blitz, Thunder Fang, Extreme Speed, Close Combat) \n Malamar (Psycho Cut, Knock Off, Aerial Ace, Hypnosis) \n Cacturne (Sucker Punch, Drain Punch, Low Kick, Seed Bomb) \n Amoonguss (Spore, Giga Drain, Sludge Bomb, Payback) \n Cofagrigus (Shadow Ball, Haze, Will-o-Wisp, Knock Off) \n")
+		.addField("Possible Rewards","$10000-30000, Silver Disc, Wynaut, Frilish, Team Rocket Clothes, Foongus, Cacnea, Inkay")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://d1u5p3l4wpay3k.cloudfront.net/wiki_marriland/thumb/e/ed/TeamRocketAnime.png/92px-TeamRocketAnime.png?version=258a6105d29356438c42b9dae7ff8bc3")
+		
+		message.channel.sendEmbed(embed);
+	}
+	
 	
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou```');
