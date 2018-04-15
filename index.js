@@ -607,6 +607,174 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
+	if (message.content == '!boss brock') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Brock")
+		.addField("Region","Kanto",true)
+		.addField("Location","Digletts Cave",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","1 level 100 pokemon, 150 hours playtime")
+		.addField("Team"," Steelix (Sandstorm, Dig, Stone Edge, Double Edge) \n Kabutops (Night Slash, Metal Sound, Ancient Power, Wring Out) \n Golem (Stone Edge, Explosion, Heavy Slam, Double Edge) \n Armaldo (X-Scissor, Slash, Rock Blast, Crush Claw) \n Rhyperior (Earthquake, Megahorn, Horn Drill, Rock Wrecker) \n Regirock (Zap Cannon, Hammer Arm, Stone Edge, Hyper Beam)")
+		.addField("Possible Rewards","$60000-125000, 10x Rare Candy, 10x PP Up, 10x Focus Sash, 50x Ultra Ball, Assault Vest, 1x Weakness Policy, Eviolite, Master Ball, Dratini, Larvitar, Bagon, Beldum, Goomy, Gible, 25 % chance for Phione")
+		.addField("Third Rewards","Omanyte, Kabuto, Aerodactyl, Anorith, Lileep")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/_WCoH7BYaTfF8tG3m9JCkdpdjS8r3CRHAaQeRnKScy4/https/walrosskastanie.tk/2017/10/oegJVgv.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss chuck') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Chuck")
+		.addField("Region","Kanto",true)
+		.addField("Location","Golds Gym (Saffron City)",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","180 hours playtime, Johto Champion")
+		.addField("Team","Machamp (Bulk Up, Cross Chop, Scary Face, Dynamic Punch) \n Mienshao (Wide Guard, Bounce, Aura Sphere, Reversal) \n Conkeldurr (Stone Edge, Superpower, Hammer Arm, Focus Punch) \n Infernape (Flare Blitz, Close Combat, Fire Spin, Acrobatics) \n Lucario (Aura Sphere, Close Combat, Extreme Speed, Dragon Pulse) \n Breloom (Dynamic Punch, Mind Reader, Sky Uppercut, Seed Bomb)")
+		.addField("Possible Rewards","$3000-10000, 5x Focus Sash, Black Belt, Shroomish, Riolu, Timburr, Chimchar, Mienfoo")
+		.addField("Third Rewards","Mienfoo, Riolu, Timburr, Chimchar")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/dJ-zW5o_MKzRuwW4IQ05Ho3u8Z-gXWhCbUnKhHKakUk/https/reborn-pro.tk/files/Forum/Chuck.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss guardian entei' || message.content == '!boss entei guardian') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Guardian Entei")
+		.addField("Region","Kanto",true)
+		.addField("Location","Route 25 Cave",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","All Kanto and Johto pokemon owned, 750 hours playtime")
+		.addField("Team","Mega Charized Y (Roar, Flamethrower, Air Cutter, Roost) \n Talonflame (Brave Bird, Flare Blitz, Roost, Solar Beam) \n Emboar (Flame Charge, Earthquake, Stone Edge, Wild Charge) \n Entei (Sacred Fire, Solar Beam, Calm Mind, Sunny Day) \n Venusaur (Solar Beam, Ancient Power, Synthesis, Sludge Bomb) \n Machamp (Fissure, Dynamic Punch, Ice Punch, Stone Edge)")
+		.addField("Possible Rewards","$50000-80000, 3x TM85 - Flamethrower, 3x TM100 - Overheat, 3x TM61 - Sunny Day, Smooth Rock, Choice Band, Entei (Si no lo tienes aun)")
+		.addField("Fourth Rewards","Charmander, Bulbasaur, Fletchling, Tepig, Entei (Si no lo tienes aun)")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/AgPLQ9jfMzllPAs8kBQga6wiBjSZ0S6fvkjAYz65OAQ/https/walrosskastanie.tk/2017/10/ErRVAX8.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss erika') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Erika")
+		.addField("Region","Kanto",true)
+		.addField("Location","Viridian Maze",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon")
+		.addField("Team","Ferrothorn (Iron Head, Payback, Flash Cannon, Explosion) \n Ludicolo (Growl, Astonish, Mega Drain, Nature Power) \n Volcarona (Heat Wave, Bug Buzz, Rage Powder, Hurricane) \n Shiftry (Nasty Plot, Feint Attack, Whirlwind, Leaf Storm) \n Torterra (Synthesis, Crunch, Giga Drain, Leaf Storm) \n Virizion (Quick Guard, Work Up, Leaf Blade, Close Combat)")
+		.addField("Possible Rewards","$2500-8500, Sun Stone, Leaf Stone, Seedot, 2x TM22 - Solarbeam, 2x TM86 - Sludge Bomb, 5x Pomeg Berry, 5x Kelpsy Berry, 5x Qualot Berry, 5x Hondew Berry, 5x Grepa Berry, 5x Tomato Berry, Ferroseed, Larvesta")
+		.addField("Third Rewards","Seedot, Ferroseed, Larvesta, Turtwig")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/4tWgGowH1AFsUOCU7N7rMAoqIrCWUEZRH207ikV6YBQ/https/reborn-pro.tk/files/Forum/Erika.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss george') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("George")
+		.addField("Region","Kanto",true)
+		.addField("Location","Carcel(Pewter City)",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","Complete quest, 750 hours")
+		.addField("Team","Arcanine (Wild Charge, Flare Blitz, Outrage, Roar) \n Stoutland (Yawn, Superpower, Wild Charge, Facade) \n Furfrou (Grass Knot, Surf, Zen Headbutt, U-Turn) \n Mega Houndoom (Dark Pulse, Fire Blast, Iron Tail, Thunder Fang) \n Manetric (Thunderbolt, Flame Burst, Signal Beam, Eerie Impulse) \n Lucario (Extreme Speed, Flash Cannon, Close Combat, Dark Pulse)")
+		.addField("Possible Rewards","$25000-45000, 2x Toxic Orb, 2x Flame Orb, 2x Life Orb, Houndour, Electrike, Lillipup, Riolu, Furfrou")
+		.addField("Third Rewards","Houndour, Electrike, Lillipup, Riolu, Furfrou")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/14YtmGxn-JFTqq6evnIxYNZZuUeRUtSFlI6ehVkfC48/https/reborn-pro.tk/files/Forum/George.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss team rocket' || message.content == '!boss rocket' || message.content == '!boss jessie' || message.content == '!boss james' || message.content == '!boss jessie/james') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Team Rocket")
+		.addField("Region","Kanto",true)
+		.addField("Location","Celadon City",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon, level 100 Pikachu")
+		.addField("Team (Jessie)","Arbok (Coil, Gunk Shot, Sucker Punch, Seed Bomb) \n Dustox (Quiver Dance, Sludge Bomb, Bug Buzz, Roost) \n Yanmega (Air Slash, Giga Drain, Bug Buzz, Ancient Power) \n Porygon-Z (Tri Attack, Dark Pulse, Thunderbolt, Nasty Plot) \n Seviper (Sludge Bomb, Giga Drain, Sucker Punch, Flamethrower) \n Jellicent (Shadow Ball, Will-o-Wisp, Surf, Recover)")
+		.addField("Team (James)","Weezing (Will-o-Wisp, Sludge Bomb, Flamethrower, Pain Split) \n Arcanine (Flare Blitz, Thunder Fang, Extreme Speed, Close Combat) \n Malamar (Psycho Cut, Knock Off, Aerial Ace, Hypnosis) \n Cacturne (Sucker Punch, Drain Punch, Low Kick, Seed Bomb) \n Amoonguss (Spore, Giga Drain, Sludge Bomb, Payback) \n Cofagrigus (Shadow Ball, Haze, Will-o-Wisp, Knock Off) \n")
+		.addField("Possible Rewards","$10000-30000, Silver Disc, Wynaut, Frilish, Team Rocket Clothes, Foongus, Cacnea, Inkay")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://d1u5p3l4wpay3k.cloudfront.net/wiki_marriland/thumb/e/ed/TeamRocketAnime.png/92px-TeamRocketAnime.png?version=258a6105d29356438c42b9dae7ff8bc3")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss koichi') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Koichi")
+		.addField("Region","Kanto",true)
+		.addField("Location","Saffron Dojo",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","Only level 100 pokemon in your team, 201 hours playtime")
+		.addField("Team","Lucario (Dragon Pulse, Extreme Speed, Aura Sphere, Close Combat) \n Hitmontop (Detect, Endeavor, Wide Guard, Close Combat) \n Gallade (Stored Power, Protect, False Swipe, Close Combat) \n Poliwrath (Circle Throw, Mind Reader, Dynamic Punch, Bubblebeam) \n Pangoro (Taunt, Hammer Arm, Crunch, Sky Uppercut) \n Terrakion (Close Combat, Bulk Up, Stone Edge, Quick Guard)")
+		.addField("Possible Rewards","$2500-10000, 5x Focus Sash, Hitmontop, Hitmonchan, Hitmonlee, Riolu, Pancham")
+		.addField("Third Rewards","Hitmonlee, Hitmonlee, Hitmontop, Riolu, Pancham")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/CUzWePPHRXo8Z_BR3pSqnNforNiq08QqfzQ7O8iGCUg/https/reborn-pro.tk/files/Forum/Koichi.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss naero') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Naero")
+		.addField("Region","Kanto",true)
+		.addField("Location","Cerulean Cave B1F",true)
+		.addField("Cooldown","12 days, 6 days (active MS)")
+		.addField("Requirement/s","6 level 100 pokemon, 201 hours playtime")
+		.addField("Team","Togekiss (Thunder Wave, Air Slash, Flamethrower, Roost) \n Snorlax (Crunch, Body Slam, Rest, Sleep Talk) \n Mr. Mime (Icy Wind, Psychic, Confuse Ray, Shadow Ball) \n Blissey (Seismic Toss, Softboiled, Thunder Wave, Flamethrower) \n Electivire (Thunder Punch, Cross Chop, Flamethrower, Ice Punch) \n Magmortar (Thunderbolt, Earthquake, Lava Plume, Focus Blast)")
+		.addField("Reward","Unlocks Daycare Centers")
+		.addField("Possible Rewards","Elekid, Magby, Munchlax, Cleffa, Igglybuff, Pichu, Bonsly, Tyrogue, Togepi, Smoochum, TM28 - Dig")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/HoXRap6TWVka0c_5Duj2ziIBSt69P772Nf3Wu4tI8es/https/reborn-pro.tk/files/Forum/Naero.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss nikola') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("nikola")
+		.addField("Region","Kanto",true)
+		.addField("Location","Unknown Place (Trainers Valley)",true)
+		.addField("Cooldown","21 days")
+		.addField("Requirement/s","Not able to catch a legendary anymore")
+		.addField("Team","Mewtwo (Stealth Rock, Toxic Spikes, Spikes, Zap Cannon) \n Mega Charizard X (Dragon Dance, Earthquake, Flare Blitz, Dragon Claw) \n Kyogre (Thunder Wave, Thunder, Ice Beam, Scald) \n Deoxys (Psychic, Ice Beam, Focus Blast, Energy Ball) \n Arceus (Swords Dance, Extreme Speed, Shadow Claw, Earthquake) \n Dragonite (Dragon Dance, Extreme Speed, Dragon Claw, Earthquake)")
+		.addField("Possible Rewards","Recatch a legendary, you can't catch anymore")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/7s5aV9JJi1qTvJHzk3MulgOlDeW-ThPtXwo2OFAePrM/https/reborn-pro.tk/files/Forum/Nikola.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content == '!boss oak') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Oak")
+		.addField("Region","Kanto",true)
+		.addField("Location","Cinnabar Lab Room 2",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon, 200 pokemon owned")
+		.addField("Team","Tauros (Giga Impact, Thrash, Swagger, Take Down) \n Exeggutor (Psyshock, Egg Bomb, Leaf Storm) \n Mega Venusaur (Giga Drain, Earthquake, Sludge Bomb, Silver Wind) \n Arcanine (Bite, Thunder Fang, Roar, Extreme Speed) \n Kangaskhan (Reversal, Endure, Sucker Punch, Outrage) \n Dragonite (Hurricane, Dragon Dance, Hyper Beam)")
+		.addField("Possible Rewards","$2000-10000, Miracle Seed, Charcoal, Mystic Water, Charmander, Bulbasaur, Squirtle, Kangaskhan")
+		.addField("Third Rewards","Squirtle, Charmander, Bulbasaur, Kangaskhan, Dratini")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/i6jCOiRTipmihTXZtDbkImBz8pNS1u_bn1O8K3Ysmhs/https/reborn-pro.tk/files/Forum/Oak.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content == '!boss shamac') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Shamac")
+		.addField("Region","Kanto",true)
+		.addField("Location","Carcel(Pewter City)",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
+		.addField("Team #1","Latias (Draco Meteor, Psyshock, Energy Ball, Thunderbolt) \n Lapras (Surf, Ice Beam, Dragon Pulse, Psychic) \n Goodra (Sludge Bomb, Flamethrower, Brick Break, Draco Meteor) \n Mega Swampert (Ice Punch, Waterfall, Rock Slide, Earthquake) \n Cinccino (Focus Blast, Rock Blast, Bullet Seed, Knock Off) \n Mega Pidgeot (Heat Wave, Hurricane, Roost, Ominous Wind)")
+		.addField("Team #2","Goodra (Sludge Bomb, Flamethrower, Brick Break, Draco Meteor) \n Mega Swampert (Ice Punch, Waterfall, Rock Slide, Earthquake) \n Latias (Draco Meteor, Psyshock, Energy Ball, Thunderbolt) \n Cinccino (Focus Blast, Rock Blast, Bullet Seed, Knock Off) \n Lapras (Surf, Ice Beam, Dragon Pulse, Psychic) \n Mega Pidgeot (Heat Wave, Hurricane, Roost, Ominous Wind)")
+		.addField("Team #3","Swampert (Ice Punch, Waterfall, Rock Slide, Earthquake) \n Mega Pidgeot (Heat Wave, Hurricane, Roost, Ominous Wind) \n Goodra (Sludge Bomb, Flamethrower, Brick Break, Draco Meteor) \n Lapras (Surf, Ice Beam, Dragon Pulse, Psychic) \n Cinccino (Focus Blast, Rock Blast, Bullet Seed, Knock Off) \n Mega Latias (Draco Meteor, Psyshock, Energy Ball, Thunderbolt)")
+		.addField("Possible Rewards","$10000-30000, 5x Rare Candy, 5x Focus Sash, 1x Dubious Disc, Shiny Pidgey, Lapras, Mudkip, Minccino, Goomy")
+		.addField("Third Rewards","Lapras, Mudkip, Minccino, Goomy")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/XO8e-jA264H_kGQ9Cn0DPfwpylK6HVhMVsCOhqMW5U4/https/walrosskastanie.tk/2017/10/mxokfTV.png")
+		
+		message.channel.sendEmbed(embed);
+	}
 	
 	
 	
