@@ -592,15 +592,34 @@ bot.on('message', async message => {
 	    message.channel.sendMessage('**Ruinas alpha johto - Centro de investigación (donde está el boss ELM)​ $20,000 por movimiento** \n ' +  '  + Movimientos que aprende: Nasty Plot \n '  + 'Completar la quest previamente : \n https://pokemonrevolution.net/forum/index.php?threads/the-legendary-trio-legendary-dogs-event-moves-quest-legendary-beast-tutor.64772/');		
 	}
 	
-	if (message.content == 'prueba') {
+	if (message.content == '!boss') {
 		var embed = new Discord.RichEmbed()
-		.addField("Test","Descripcin",true)
-		.addField("Test","Descripcin2",true)
-		.addField("Test","Descripcin")
-		.setFooter("prueba pie de pagina")
+		.addField("Boss","")
+		.addField("Boss","Kanto",true)
+		.addField("Location","Two Island (Sevii Island Two)")
+		.addField("Cooldown","15 days")
+		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
+		.addField("Team")
+		.addField("Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up)")
+		.addField("Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch)")
+		.addField("XD001 (Cosmic Power, Aeroblast, Psyshock, Roar)")
+		.addField("Primal Kyogre (Surf, Thunder, Ice Beam, Calm Mind)")
+		.addField("Mega Latios (Calm Mind, Stored Power, Recover, Dragon Pulse)")
+		.addField("Mega Rayquaza (Dragon Dance, Outrage, Roost, Extreme Speed)")
+		
+
+
+
+
+		.setFooter("Alma de guerreros")
 		.setThumbnail("https://images-ext-2.discordapp.net/external/YWeLpi_6cdV_AzGaomiS331B933bO1A_8Z-CrW4zlg0/https/reborn-pro.tk/files/Forum/Boss.png")
 		
 		message.channel.sendEmbed(embed);
+		
+		
+		
+		
+		
 	}
 	
 	if (message.content == '!comandos') {
