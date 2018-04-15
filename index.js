@@ -1230,7 +1230,7 @@ bot.on('message', async message => {
 	
   }
 	if (message.content == '!comandos') {
-		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou \n'+'!boss 		 Ubicacion y team de los bosses. Ejemplo !boss koichi```');
+		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou \n'+'!boss 		               Ubicacion y team de los bosses. Ejemplo !boss koichi```');
 	}
 	
 	
