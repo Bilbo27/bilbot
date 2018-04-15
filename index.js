@@ -599,7 +599,7 @@ bot.on('message', async message => {
 		.addField("Location","Isla Sevii 2",true)
 		.addField("Cooldown","15 days")
 		.addField("Requirement/s","6 level 100 pokemon, 200 hours playtime")
-		.setDescription("**Team**")
+		.addField("Team","")
 		.addField("","Mega Mewtwo X (Psycho Cut, Close Combat, Recover, Psych Up)")
 		.addField("Primal Groundon (Earthquake, Flamethrower, Swords Dance, Thunder Punch)")
 		.addField("XD001 (Cosmic Power, Aeroblast, Psyshock, Roar)")
