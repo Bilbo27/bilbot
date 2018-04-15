@@ -622,6 +622,36 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
+	if (message.content == '!boss chuck') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Chuck")
+		.addField("Region","Kanto",true)
+		.addField("Location","Golds Gym (Saffron City)",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","180 hours playtime, Johto Champion")
+		.addField("Team","Machamp (Bulk Up, Cross Chop, Scary Face, Dynamic Punch) \n Mienshao (Wide Guard, Bounce, Aura Sphere, Reversal) \n Conkeldurr (Stone Edge, Superpower, Hammer Arm, Focus Punch) \n Infernape (Flare Blitz, Close Combat, Fire Spin, Acrobatics) \n Lucario (Aura Sphere, Close Combat, Extreme Speed, Dragon Pulse) \n Breloom (Dynamic Punch, Mind Reader, Sky Uppercut, Seed Bomb)")
+		.addField("Possible Rewards","$3000-10000, 5x Focus Sash, Black Belt, Shroomish, Riolu, Timburr, Chimchar, Mienfoo")
+		.addField("Third Rewards","Mienfoo, Riolu, Timburr, Chimchar")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-2.discordapp.net/external/dJ-zW5o_MKzRuwW4IQ05Ho3u8Z-gXWhCbUnKhHKakUk/https/reborn-pro.tk/files/Forum/Chuck.png")
+		
+		message.channel.sendEmbed(embed);
+	}
+	if (message.content == '!boss guardian entei') {
+		var embed = new Discord.RichEmbed()
+		.setDescription("Guardian Entei")
+		.addField("Region","Kanto",true)
+		.addField("Location","Route 25 Cave",true)
+		.addField("Cooldown","12 days")
+		.addField("Requirement/s","All Kanto and Johto pokemon owned, 750 hours playtime")
+		.addField("Team","Mega Charized Y (Roar, Flamethrower, Air Cutter, Roost) \n Talonflame (Brave Bird, Flare Blitz, Roost, Solar Beam) \n Emboar (Flame Charge, Earthquake, Stone Edge, Wild Charge) \n Entei (Sacred Fire, Solar Beam, Calm Mind, Sunny Day) \n Venusaur (Solar Beam, Ancient Power, Synthesis, Sludge Bomb) \n Machamp (Fissure, Dynamic Punch, Ice Punch, Stone Edge)")
+		.addField("Possible Rewards","$50000-80000, 3x TM85 - Flamethrower, 3x TM100 - Overheat, 3x TM61 - Sunny Day, Smooth Rock, Choice Band, Entei (Si no lo tienes aun)")
+		.addField("Third Rewards","Charmander, Bulbasaur, Fletchling, Tepig, Entei (Si no lo tienes aun)")
+		.setFooter("Alma de Guerreros")
+		.setThumbnail("https://images-ext-1.discordapp.net/external/AgPLQ9jfMzllPAs8kBQga6wiBjSZ0S6fvkjAYz65OAQ/https/walrosskastanie.tk/2017/10/ErRVAX8.png")
+		
+		message.channel.sendEmbed(embed);
+	}
 	
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou```');
