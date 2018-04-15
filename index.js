@@ -1098,9 +1098,9 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
-	if (message.content == '!boss bruno') {
+	if (message.content == '!boss toothless') {
 		var embed = new Discord.RichEmbed()
-		.setDescription("Bruno")
+		.setDescription("Toothless")
 		.addField("Region","Hoenn",true)
 		.addField("Location","Abandoned Ship B1F Room 1 (Route 108)",true)
 		.addField("Cooldown","12 days")
@@ -1204,7 +1204,7 @@ bot.on('message', async message => {
 		
 		message.channel.sendEmbed(embed);
 	}
-	if (message.content == '!boss bruno') {
+	if (message.content == '!boss jenny') {
 		var embed = new Discord.RichEmbed()
 		.setDescription("Officer Jenny")
 		.addField("Region","Kanto",true)
@@ -1220,9 +1220,7 @@ bot.on('message', async message => {
 		message.channel.sendEmbed(embed);
 	}
 	
-	if(message.content.indexOf('m') != -1){
-		message.channel.sendMessage('funco');
-	}
+	
 	
 	if (message.content == '!comandos') {
 		message.channel.sendMessage('```!tm				Colocar el ataque a consultar. Ejemplo: !tm earthquake \n'+'!requisitos		Colocar el legendario a consultar. Ejemplo !requisitos mew \n'+'!canalyt		   Muestra el canal de youtube de la guild \n'+'!legtutor 		 Tutor de legendarios. Ejemplo !legtutor raikou \n'++'!boss 		 Ubicacion y team de los bosses. Ejemplo !boss koichi'```');
