@@ -28,7 +28,7 @@ bot.on('message', async message => {
 		message.channel.sendMessage('Bilbo :speaking_head: ');
 	}
    if (message.content == 'quien es el mas ptazo?' || message.content == 'quien es el mas putazo?' || message.content == 'Quien es el mas putazo?') {
-		message.channel.sendMessage('Roma @El Pura Rabia#7833  :speaking_head: ');
+		message.channel.sendMessage('@El Pura Rabia#7833');
 	}
   if (message.content.indexOf("!tm") != -1) {
 	if (message.content == '!tm earthquake') {
